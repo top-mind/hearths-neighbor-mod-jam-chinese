@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+     欢迎来到星际拓荒第三届模组大赛。
+    </Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      参赛选手有 11 天来构建一个发生在一颗星球上的故事模组。
+    </Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>
+      每次大赛都有一个主题，这次的主题是“社群”。
+    </Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>
+      为了贯彻社群精神，所有模组都被放在同一个太阳系，就是你所在的这个！
+    </Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>5</ID>
+    <ParentID>4</ParentID>
+    <Text>
+      每完成一个模组，和 Ping 对话——下一个循环可能有新东西出现在太空站里！
+    </Text>
+  </TextBlock>
+</NomaiObject>

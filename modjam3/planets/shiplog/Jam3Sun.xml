@@ -1,0 +1,24 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>JAM3SUN</ID>
+
+  <Entry>
+    <ID>JAM3_ROOT</ID>
+    <Name>星际拓荒第三届模组大赛</Name>
+    <Curiosity>JAM3_CURIOSITY</Curiosity>
+    <IsCuriosity/>
+    <IgnoreMoreToExplore/>
+
+    <ExploreFact>
+      <ID>JAM3_EXPLORE_FACT</ID>
+      <Text>欢迎来到星际拓荒第三届模组大赛。</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>JAM3_EXPLORE_FACT_2</ID>
+      <Text>这次的主题是“社群”。</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

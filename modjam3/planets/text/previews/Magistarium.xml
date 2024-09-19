@@ -1,0 +1,38 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>一个球形天体悬浮在太阳上方，在我的空间站对面。</Page>
+      <Page>入口舱门开着，但我的扫描无法穿透内部。</Page>
+    </Dialogue>
+    <SetPersistentCondition>HasReadNoteInStarship</SetPersistentCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>NotInstalled</Name>
+    <EntryCondition>GameWyrm_HearthsNeighbor2_NotInstalled</EntryCondition>
+    <Dialogue>
+      <Page>A spherical body levitates above the sun, opposite my station.</Page>
+      <Page>An entrance hatch is left open, but my scans are unable to penetrate the interior.</Page>
+      <Page>(Install <![CDATA[<color="purple">]]>Hearth's Neighbor 2: Magistarium<![CDATA[</color>]]> to learn more about this world!)</Page>
+    </Dialogue>
+    <SetPersistentCondition>HasReadNoteInStarship</SetPersistentCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>COMPLETE</Name>
+    <EntryCondition>GameWyrm_HearthsNeighbor2_Complete_EntryCondition</EntryCondition>
+    <Dialogue>
+      <Page>一个球形天体悬浮在太阳上方，在我的空间站对面。</Page>
+      <Page>入口舱门开着，但我的扫描无法穿透内部。</Page>
+      <Page>我的哈斯朋友告诉我，这个空间站里有一个装置，能让使用者上升到更高的位面！</Page>
+      <Page>虽然我未能飞升，但我还是发现了一些有趣的人造物，并将其作为自己的收藏。</Page>
+      <Page>我相信，这个迪斯科球一定会在我的族人的节日上大放异彩。</Page>
+    </Dialogue>
+    <SetPersistentCondition>HasReadNoteInStarship</SetPersistentCondition>
+  </DialogueNode>
+
+</DialogueTree>

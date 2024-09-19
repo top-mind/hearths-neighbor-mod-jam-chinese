@@ -1,0 +1,29 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>STARSHIPCOMMUNITY</ID>
+
+  <Entry>
+    <ID>STARSHIP_COMMUNITY_ENTRY</ID>
+    <Name>星舰社群</Name>
+    <Curiosity>JAM3_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>STARSHIP_COMMUNITY_RUMOR_FACT</ID>
+      <RumorName>星舰社群</RumorName>
+      <SourceID>JAM3_ROOT</SourceID>
+      <Text>我在一个太空站里醒来，太空站位于一颗蓝色恒星的高空。</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>STARSHIP_COMMUNITY_EXPLORE_FACT</ID>
+      <Text>Streetlights Behind the Trees 为我们提供了这个漂亮的出生点，供社区模组大赛使用。</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>STARSHIP_COMMUNITY_PING_FACT</ID>
+      <Text>一个叫 Ping 的挪麦人正在收集数据，准备在他们家族的下一个节日上分享。在探索这个系统中的世界时，我应该向其报告我的发现。</Text>
+    </ExploreFact>
+
+  </Entry>
+
+</AstroObjectEntry>

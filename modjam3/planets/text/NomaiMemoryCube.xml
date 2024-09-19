@@ -1,0 +1,17 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>PING：多有趣的方块啊，我想知道它有什么用。</Page>
+      <Page>PING：哦，它在读取我的思想，真有趣。希望我不会想到尴尬的事情。</Page>
+      <Page>PING：……</Page>
+      <Page>PING：…………</Page>
+      <Page>PING：……</Page>
+      <Page>PING：很好，我没有。</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

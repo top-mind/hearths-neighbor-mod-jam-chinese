@@ -1,0 +1,15 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+      模组大赛的冠军是……
+    </Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>
+    《哈斯邻居2: 大导师馆》！ 恭喜 GameWyrm, EndgameZero, FunkyShoeMan 和 CelestialsStorm！
+    </Text>
+  </TextBlock>
+</NomaiObject>
